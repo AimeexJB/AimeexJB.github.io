@@ -1,0 +1,325 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #2c3540;
+  padding: 40px 50px 0;
+}
+
+.letter {
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+
+.letter__snowflake {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-16%, 12%);
+}
+
+.letter__logo {
+  width: 400px;
+}
+
+.letter__title {
+  font-size: 58px;
+}
+
+.letter__subtitle {
+  color: #3b3b3b;
+  font-size: 40px;
+}
+
+.letter__content {
+  color: #727272;
+  font-size: 27px;
+}
+
+.letter__sign-off {
+  font-size: 28px;
+  font-family: serif;
+  color: #3b3b3b;
+}
+
+.gift-options,
+.our-experts {
+  background-color: #f4f4f4;
+  padding: 50px 65px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gift-options__intro,
+.our-experts__intro {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 95px;
+  border-top: 1px solid #cdcdcd;
+}
+
+.gift-options__intro-title,
+.our-experts__intro-title {
+  color: #121212;
+  font-size: 64px;
+  padding-top: 75px;
+  margin: 0;
+  width: 50%;
+}
+
+.gift-options__intro-subtitle,
+.our-experts__intro-subtitle {
+  color: #4a4a4a;
+  font-size: 44px;
+  font-family: serif;
+}
+
+.gift-options__workshops {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.gift-options__workshops-logo {
+  padding: 160px 115px;
+  text-align: center;
+}
+.gift-options__workshops-logo img {
+  width: 305px;
+  height: 265px;
+}
+
+.accelerator-logo {
+  background: #357efc;
+  background: linear-gradient(180deg, #357efc 0%, #36edf8 100%);
+}
+
+.pioneer-logo {
+  background: #16bf73;
+  background: linear-gradient(180deg, #16bf73 0%, #33f5a7 100%);
+}
+
+.innovate-logo {
+  background: #c42581;
+  background: linear-gradient(180deg, #c42581 0%, #ff00db 100%);
+}
+
+.gift-options__workshops-description {
+  background-color: #ffffff;
+  padding: 100px 80px;
+}
+
+.gift-options__workshops-title {
+  color: #212832;
+  font-size: 44px;
+  margin-top: 0;
+}
+
+.accelerator {
+  color: #3580fc;
+}
+
+.pioneer {
+  color: #17c175;
+}
+
+.innovate {
+  color: #d11d94;
+}
+
+.gift-options__workshops-content {
+  color: #121212;
+  font-size: 30px;
+}
+
+.gift-options__workshops-subcontent {
+  color: #121212;
+  font-size: 27px;
+  margin-bottom: 0;
+}
+
+.our-experts {
+  background-color: #f4f4f4;
+}
+
+.our-experts__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.our-experts__content img {
+  width: 100%;
+}
+
+.our-experts__content-description {
+  text-align: center;
+}
+
+.our-experts__name {
+  font-size: 36px;
+  margin: 30px 0 15px 0;
+}
+
+.our-experts__job {
+  font-size: 26px;
+  margin: 0 0 80px 0;
+}
+
+.outro {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 0 100px 170px;
+}
+
+.outro-content {
+  display: flex;
+  align-items: center;
+}
+
+.outro-content__title {
+  font-size: 66px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
+  .header {
+    padding: 100px 200px 0;
+  }
+
+  .letter {
+    padding: 100px;
+  }
+
+  .letter__snowflake {
+    width: 315px;
+    transform: translate(-75%, 30%);
+  }
+
+  .letter__title {
+    font-size: 48px;
+  }
+
+  .letter__subtitle {
+    font-size: 30px;
+  }
+
+  .letter__content {
+    font-size: 17px;
+  }
+
+  .letter__sign-off {
+    font-size: 18px;
+  }
+
+  .letter__signature {
+    width: 160px;
+    height: 135px;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .header {
+    padding: 120px 250px 0;
+  }
+
+  .letter {
+    padding: 100px;
+  }
+
+  .letter__snowflake {
+    width: 336px;
+    transform: translate(-77%, 33%);
+  }
+
+  .letter__title {
+    font-size: 48px;
+  }
+
+  .letter__subtitle {
+    font-size: 30px;
+  }
+
+  .letter__content {
+    font-size: 17px;
+  }
+
+  .letter__sign-off {
+    font-size: 18px;
+  }
+
+  .letter__signature {
+    width: 160px;
+    height: 135px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .header {
+    padding: 130px 300px 0;
+  }
+
+  .letter {
+    padding: 100px;
+  }
+
+  .letter__snowflake {
+    transform: translate(-82%, 33%);
+  }
+
+  .letter__logo {
+    width: 250px;
+  }
+
+  .letter__signature {
+    width: 184px;
+    height: 155px;
+  }
+
+  .gift-options,
+.our-experts {
+    padding: 120px 165px 40px;
+  }
+
+  .gift-options__intro,
+.our-experts__intro {
+    flex-direction: row;
+    border-top: none;
+  }
+
+  .gift-options__intro-title,
+.our-experts__intro-title {
+    font-size: 44px;
+    border-top: 1px solid #cdcdcd;
+  }
+
+  .gift-options__intro-subtitle,
+.our-experts__intro-subtitle {
+    font-size: 34px;
+    border-top: 1px solid #cdcdcd;
+    padding-top: 75px;
+    margin: 0 0 0 50px;
+  }
+
+  .gift-options__workshops {
+    flex-direction: row;
+  }
+
+  .our-experts__row {
+    flex-direction: row;
+  }
+
+  .our-experts__content {
+    width: 33%;
+    padding-right: 50px;
+  }
+
+  .our-experts__content:last-of-type {
+    padding-right: 0;
+  }
+
+  .outro {
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

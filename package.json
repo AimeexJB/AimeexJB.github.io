@@ -1,0 +1,15 @@
+{
+  "name": "screenmedia_codetest2_aimee",
+  "version": "1.0.0",
+  "description": "Code test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "author": "Aimee Redmond",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}
