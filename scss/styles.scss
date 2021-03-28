@@ -7,16 +7,16 @@ body {
 
 .header {
     background-color: #2c3540;
-    padding: 40px 50px 0;
+    padding: 20px 30px 0;
 }
 
 .letter {
     background-color: #f4f4f4;
-    padding: 50px;
+    padding: 30px;
 }
 
 .letter__logo {
-    width: 200px;
+    width: 150px;
 }
 
 .letter__snowflake {
@@ -24,32 +24,32 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-16%, 12%);
+    transform: translate(-8%, 7%);
 }
 
 .letter__title {
-    font-size: 34px;
+    font-size: 28px;
 }
 
 .letter__subtitle {
     color: #3b3b3b;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .letter__content {
     color: #727272;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .letter__sign-off {
-    font-size: 20px;
+    font-size: 18px;
     font-family: serif;
     color: #3b3b3b;
 }
 
 .letter__signature {
-    width: 120px;
-    height: 100px;
+    width: 100px;
+    height: 80px;
 }
 
 
@@ -58,7 +58,7 @@ body {
 .gift-options,
 .our-experts {
     background-color: #f4f4f4;
-    padding: 50px 50px 0;
+    padding: 20px 20px 0;
     display: flex;
     flex-direction: column;
 }
@@ -67,33 +67,33 @@ body {
 .our-experts__intro {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-top: 1px solid #cdcdcd;
 }
 
 .gift-options__intro-title,
 .our-experts__intro-title {
     color: #121212;
-    font-size: 28px;
-    padding-top: 40px;
+    font-size: 26px;
+    padding-top: 30px;
     margin: 0;
 }
 
 .gift-options__intro-subtitle,
 .our-experts__intro-subtitle {
     color: #4a4a4a;
-    font-size: 24px;
+    font-size: 22px;
     font-family: serif;
 }
 
 .gift-options__workshops {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .gift-options__workshops-logo {
-    padding: 50px 50px;
+    padding: 40px;
     text-align: center;
 
     img {
@@ -119,12 +119,12 @@ body {
 
 .gift-options__workshops-description { 
     background-color: #ffffff;
-    padding:50px;
+    padding:40px;
 }
 
 .gift-options__workshops-title {
     color: #212832;
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 0;
 }
 
@@ -140,14 +140,13 @@ body {
     color: #d11d94;
 }
 
-.gift-options__workshops-content {
+.gift-options__workshops-content,
+.gift-options__workshops-subcontent {
     color: #121212;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .gift-options__workshops-subcontent {
-    color: #121212;
-    font-size: 20px;
     margin-bottom: 0;
 }
 
@@ -167,7 +166,7 @@ body {
     text-align: center;
     
     img {
-        width: 50%;
+        width: 70%;
     }
 }
 
@@ -192,7 +191,7 @@ body {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
 }
 
 .outro-content {
