@@ -15,35 +15,41 @@ body {
     padding: 50px;
 }
 
+.letter__logo {
+    width: 200px;
+}
+
 .letter__snowflake {
+    width: 250px;
     position: absolute;
     top: 0;
     right: 0;
     transform: translate(-16%, 12%);
 }
 
-.letter__logo {
-    width: 400px;
-}
-
 .letter__title {
-    font-size: 58px;
+    font-size: 34px;
 }
 
 .letter__subtitle {
     color: #3b3b3b;
-    font-size: 40px;
+    font-size: 22px;
 }
 
 .letter__content {
     color: #727272;
-    font-size: 27px;
+    font-size: 18px;
 }
 
 .letter__sign-off {
-    font-size: 28px;
+    font-size: 20px;
     font-family: serif;
     color: #3b3b3b;
+}
+
+.letter__signature {
+    width: 120px;
+    height: 100px;
 }
 
 
@@ -52,8 +58,7 @@ body {
 .gift-options,
 .our-experts {
     background-color: #f4f4f4;
-    padding: 50px 65px 40px;
-
+    padding: 50px 50px 0;
     display: flex;
     flex-direction: column;
 }
@@ -62,39 +67,38 @@ body {
 .our-experts__intro {
     display: flex;
     flex-direction: column;
-    margin-bottom: 95px;
+    margin-bottom: 50px;
     border-top: 1px solid #cdcdcd;
 }
 
 .gift-options__intro-title,
 .our-experts__intro-title {
     color: #121212;
-    font-size: 64px;
-    padding-top: 75px;
+    font-size: 28px;
+    padding-top: 40px;
     margin: 0;
-    width: 50%;
 }
 
 .gift-options__intro-subtitle,
 .our-experts__intro-subtitle {
     color: #4a4a4a;
-    font-size: 44px;
+    font-size: 24px;
     font-family: serif;
 }
 
 .gift-options__workshops {
     display: flex;
     flex-direction: column;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .gift-options__workshops-logo {
-    padding: 160px 115px;
+    padding: 50px 50px;
     text-align: center;
 
     img {
-        width: 305px;
-        height: 265px;
+        width: 250px;
+        height: 180px;
     }
 }
 
@@ -115,12 +119,12 @@ body {
 
 .gift-options__workshops-description { 
     background-color: #ffffff;
-    padding: 100px 80px;
+    padding:50px;
 }
 
 .gift-options__workshops-title {
     color: #212832;
-    font-size: 44px;
+    font-size: 28px;
     margin-top: 0;
 }
 
@@ -138,12 +142,12 @@ body {
 
 .gift-options__workshops-content {
     color: #121212;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .gift-options__workshops-subcontent {
     color: #121212;
-    font-size: 27px;
+    font-size: 20px;
     margin-bottom: 0;
 }
 
@@ -160,8 +164,10 @@ body {
 }
 
 .our-experts__content {
+    text-align: center;
+    
     img {
-        width: 100%;
+        width: 50%;
     }
 }
 
@@ -170,13 +176,13 @@ body {
 }
 
 .our-experts__name {
-    font-size: 36px;
-    margin: 30px 0 15px 0;
+    font-size: 26px;
+    margin: 10px 0 5px 0;
 }
 
 .our-experts__job {
-    font-size: 26px;
-    margin: 0 0 80px 0;
+    font-size: 20px;
+    margin: 0 0 40px 0;
 }
 
 
@@ -186,7 +192,7 @@ body {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    padding: 120px 0 100px 170px;
+    padding: 50px;
 }
 
 .outro-content {
@@ -195,7 +201,7 @@ body {
 }
 
 .outro-content__title {
-    font-size: 66px;
+    font-size: 36px;
 }
 
 
@@ -203,46 +209,203 @@ body {
 //    Media Queries
 //-----------------------------------------//
 
-@media screen and (min-width:1000px) and (max-width:1399px) {
+@media screen and (min-width:900px)   {
     //---- Section 1 ----------------//
 
     .header {
-        padding: 100px 200px 0;
+        padding: 50px 100px 0;
+    }
+
+    .letter {
+        padding: 75px;
+    }
+
+    .letter__logo {
+        width: 200px;
+    }
+
+    .letter__snowflake {
+        width: 280px;
+        transform: translate(-36%, 16%);
+    }
+
+    .letter__title {
+        font-size: 40px;
+    }
+
+    .letter__subtitle {
+        font-size: 24px;
+    }
+
+    .letter__content {
+        font-size: 20px;
+    }
+
+    .letter__sign-off {
+        font-size: 20px;
+    }
+
+    //---- Section 2 ----------------//
+
+    .gift-options__intro,
+    .our-experts__intro {
+        flex-direction: row;
+        border-top: none;
+        margin-bottom: 95px;
+    }
+
+    .gift-options__intro-title,
+    .our-experts__intro-title {
+        font-size: 28px;
+        padding-top: 75px;
+        border-top: 1px solid #cdcdcd;
+        width: 50%;
+    }
+
+    .gift-options__intro-subtitle,
+    .our-experts__intro-subtitle {
+        font-size: 24px;
+        border-top: 1px solid #cdcdcd;
+        padding-top: 75px;
+        margin: 0 0 0 50px;
+    }
+
+    .gift-options__workshops {
+        flex-direction: row;
+        margin-bottom: 80px
+    }
+
+    .gift-options__workshops-logo {
+        padding: 140px 70px;
+    }
+
+    .gift-options__workshops-description { 
+        padding: 60px;
+    }
+
+    //---- Section 3 ----------------//
+
+    .our-experts__row {
+        flex-direction: row;
+    }
+
+    .our-experts__content {
+        width: 33%;
+        padding-right: 50px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .our-experts__content:last-of-type {
+        padding-right: 0;
+    }
+
+    .our-experts__name {
+        font-size: 28px;
+        margin: 30px 0 15px 0;
+    }
+    
+    .our-experts__job {
+        font-size: 20px;
+        margin: 0 0 80px 0;
+    }
+
+    //---- Section 4 ----------------//
+
+    .outro {
+        flex-direction: row;
+        padding: 120px 0 100px 170px;
+    }
+
+    .outro-content__title {
+        font-size: 46px;
+    }
+
+    .outro__image {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width:1200px)  {
+    //---- Section 1 ----------------//
+
+     .header {
+        padding: 100px 180px 0;
     }
 
     .letter {
         padding: 100px;
     }
 
+    .letter__logo {
+        width: 250px;
+    }
+
     .letter__snowflake {
-        width: 315px;
-        transform: translate(-75%, 30%);
+        width: 336px;
+        transform: translate(-54%, 27%);
     }
 
     .letter__title {
-        font-size: 48px;
+        font-size: 44px;
     }
 
     .letter__subtitle {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .letter__content {
-        font-size: 17px;
+        font-size: 24px;
     }
 
     .letter__sign-off {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .letter__signature {
-        width: 160px;
-        height: 135px;
+        width: 145px;
+        height: 115px;
+    }
+
+    //---- Section 2 ----------------//
+
+    .gift-options,
+    .our-experts {
+        padding: 100px 110px 0px;
+    }
+
+    .gift-options__intro-title,
+    .our-experts__intro-title {
+        font-size: 36px;
+    }
+
+    .gift-options__intro-subtitle,
+    .our-experts__intro-subtitle {
+        font-size: 26px;
+    }
+
+    .gift-options__workshops-logo {
+        padding: 150px 90px;
+    }
+
+    .gift-options__workshops-description { 
+        padding: 70px 60px;
+    }
+
+    .gift-options__workshops-title {
+        font-size: 34px;
+    }
+
+    .gift-options__workshops-content,
+    .gift-options__workshops-subcontent {
+        font-size: 22px;
     }
 
 }
 
-@media screen and (min-width:1400px) and (max-width:1599px) {
+@media screen and (min-width:1400px)  {
 
     //---- Section 1 ----------------//
 
@@ -250,12 +413,7 @@ body {
         padding: 120px 250px 0;
     }
 
-    .letter {
-        padding: 100px;
-    }
-
     .letter__snowflake {
-        width: 336px;
         transform: translate(-77%, 33%);
     }
 
@@ -268,16 +426,65 @@ body {
     }
 
     .letter__content {
-        font-size: 17px;
+        font-size: 24px;
     }
 
     .letter__sign-off {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .letter__signature {
         width: 160px;
         height: 135px;
+    }
+
+    //---- Section 2 ----------------//
+
+    .gift-options,
+    .our-experts {
+        padding: 120px 165px 40px;
+    }
+
+    .gift-options__intro-title,
+    .our-experts__intro-title {
+        font-size: 40px;
+    }
+
+    .gift-options__intro-subtitle,
+    .our-experts__intro-subtitle {
+        font-size: 30px;
+    }
+
+    .gift-options__workshops-logo {
+        padding: 160px 100px;
+    
+        img {
+            width: 285px;
+            height: 245px;
+        }
+    }
+
+    .gift-options__workshops-description { 
+        padding: 80px 80px;
+    }
+
+    .gift-options__workshops-title {
+        font-size: 36px;
+    }
+
+    .gift-options__workshops-content,
+    .gift-options__workshops-subcontent {
+        font-size: 24px;
+    }
+
+    //---- Section 4 ----------------//
+
+    .outro-content__title {
+        font-size: 58px;
+    }
+
+    .outro__image {
+        width: 800px;
     }
 
 }
@@ -290,16 +497,24 @@ body {
         padding: 130px 300px 0;
     }
 
-    .letter {
-        padding: 100px;
-    }
-
     .letter__snowflake {
         transform: translate(-82%, 33%);
     } 
 
-    .letter__logo {
-        width: 250px;
+    .letter__title {
+        font-size: 58px;
+    }
+    
+    .letter__subtitle {
+        font-size: 40px;
+    }
+    
+    .letter__content {
+        font-size: 27px;
+    }
+    
+    .letter__sign-off {
+        font-size: 28px;
     }
 
     .letter__signature {
@@ -309,87 +524,14 @@ body {
 
     //---- Section 2 ----------------//
 
-    .gift-options,
-    .our-experts {
-        padding: 120px 165px 40px;
-    }
-
-    .gift-options__intro,
-    .our-experts__intro {
-        flex-direction: row;
-        border-top: none;
-    }
-
     .gift-options__intro-title,
     .our-experts__intro-title {
         font-size: 44px;
-        border-top: 1px solid #cdcdcd;
     }
 
     .gift-options__intro-subtitle,
     .our-experts__intro-subtitle {
         font-size: 34px;
-        border-top: 1px solid #cdcdcd;
-        padding-top: 75px;
-        margin: 0 0 0 50px;
-    }
-
-    .gift-options__workshops {
-        flex-direction: row;
-    }
-
-    .gift-options__workshops-description { 
-
-    }
-
-    .gift-options__workshops-title {
-
-    }
-
-    .gift-options__workshops-content {
-  
-    }
-
-    .gift-options__workshops-subcontent {
-
-    }
-
-    //---- Section 3 ----------------//
-
-    .our-experts__row {
-        flex-direction: row;
-    }
-
-    .our-experts__content {
-        width: 33%;
-        padding-right: 50px;
-    }
-
-    .our-experts__content:last-of-type {
-        padding-right: 0;
-    }
-
-    .our-experts__name {
-        
-    }
-
-    .our-experts__job {
-       
-    }
-
-
-    //---- Section 4 ----------------//
-
-    .outro {
-        flex-direction: row;
-    }
-
-    .outro-content {
-        
-    }
-
-    .outro-content__title {
-        
     }
     
 }
