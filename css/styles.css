@@ -367,7 +367,7 @@ body {
   }
 
   .gift-options__workshops-logo {
-    padding: 150px 90px;
+    padding: 194px 90px;
   }
 
   .gift-options__workshops-description {
@@ -446,7 +446,7 @@ body {
   }
 
   .gift-options__workshops-logo {
-    padding: 160px 100px;
+    padding: 200px 100px;
   }
   .gift-options__workshops-logo img {
     width: 285px;
@@ -512,6 +512,10 @@ body {
   .gift-options__intro-subtitle,
 .our-experts__intro-subtitle {
     font-size: 34px;
+  }
+
+  .gift-options__workshops-logo {
+    padding: 140px 100px;
   }
 }
 
